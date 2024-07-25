@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: url("../images/hero-bg.jpg") center/cover no-repeat;
+    font-family: Dosis, Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+}
+.container {
+    background-color: rgb(244, 241, 241);
+    box-shadow: 2px rgb(66, 65, 65);
+    width: 33%;
+    height: 640px;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    border-radius: 5px;
+}
+
+
+.container_layout {
+    padding: 20px 40px 40px;
+    margin-bottom: 8px !important;
+    font-size: 22px;
+    font-weight: 80;
+    line-height: 1.3;
+    letter-spacing: 0;
+    text-transform: none;
+    font-style: normal;
+    font-family: Dosis, Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+}
+
+.form_container {
+    width: 80%;
+    padding: 0px 40px 40px;
+    position: absolute;
+    top: 16%;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Dosis, Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+}
+
+.email_label {
+    color: #747474;
+    box-sizing: border-box;
+    padding: 4px 0 5px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.3;
+    vertical-align: top;
+    display: block;
+}
+
+.email_input {
+    transition: border-color .13s ease-in-out, box-shadow .13s ease-in-out, -webkit-box-shadow .13s ease-in-out;
+    border-radius: 0;
+    border-width: 0 0 1px;
+    padding: 10px 0px;
+    width: 100%;
+    background-color: rgb(244, 241, 241);
+    outline: 0;
+    margin-bottom: 30px;
+}
+.email_input:focus {
+    border-bottom: 2px solid #1473e6;
+}
+
+.password_label {
+    color: #747474;
+    box-sizing: border-box;
+    margin: 40px 0px;
+    padding: 4px 0 5px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.password_input {
+    transition: border-color .13s ease-in-out, box-shadow .13s ease-in-out, -webkit-box-shadow .13s ease-in-out;
+    border-radius: 0;
+    border-width: 0 0 1px;
+    padding: 10px 0px;
+    width: 100%;
+    background-color: rgb(244, 241, 241);
+    outline: 0;
+    margin-bottom: 45px;
+}
+
+.password_input:focus {
+    border-bottom: 2px solid #1473e6;
+}

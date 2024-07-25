@@ -1,0 +1,50 @@
+.create_account_link {
+    text-decoration: none;
+    color: #1473e6;
+}
+.create_account_link:hover {
+    text-decoration: underline;
+}
+
+.myform {
+    padding: 20px 0px;
+}
+
+.ToggleSwitch {
+    cursor: pointer;
+}
+
+.login_btn {
+    background-color: #1473e6;
+    border-color: #1473e6;
+    color: #fff;
+    padding: 3.5px 14px 4.5px;
+    box-sizing: border-box;
+    align-items: center;
+    border-style: solid;
+    text-decoration: none;
+    cursor: pointer;
+    min-height: 32px;
+    min-width: 72px;
+    height: auto;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    border-width: 2px;
+    position: relative;
+    left: 48%;
+    top: 15;
+    margin-bottom: 30px;
+}
+.seperator {
+    margin-bottom: 35px;
+}
+
+.Reset_password_link {
+    text-decoration: none;
+    color: #1473e6;
+}
+
+.Reset_password_link:hover {
+    text-decoration: Underline;
+}

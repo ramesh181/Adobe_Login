@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Store</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/signin.css">
+    <link rel="stylesheet" href="./css/signup.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container" id="signin_container">
+        <header class="container_layout">
+            <h1>Sign in</h1>
+        </header>
+        <section class="form_container">
+            <p>New user ?
+                <a href="#"  class="create_account_link" onclick="register()">Create an account</a>
+            </p>
+            <section class="myform">
+                <form action="" name="myform">
+                    <label for="email" class="email_label">Email address</label>
+                    <div>
+                        <input type="email" name="email" id="emailid" class="email_input">
+                    </div>
+                    <label for="password" class="password_label">Password</label>
+                    <div>
+                        <input type="password" name="password" id="passwordid" class="password_input">
+                    </div>
+                    <section class="continue_btn">
+                        <label class="ToggleSwitch">
+                        <input type="checkbox" class="ToggleSwitch_input" role="switch" data-id="PasswordPage-RememberMeButton" aria-checked="true" value="true" checked="">
+                        <span class="ToggleSwitch_switch"></span>
+                        <span class="ToggleSwitch_label">Stay signed in</span></label>
+                        <button class="login_btn">Continue</button>
+                    </section>
+                </form>
+            </section>
+            <section class="seperator">
+                <hr style="width: 45%; height: 2px; color: #f4f4f4; display: inline-block;"> <span style="padding: 0px 5px; position: relative; bottom: 6px;">Or</span> <hr style="width: 45%; height: 2px; color: #f4f4f4; display: inline-block;">
+            </section>
+            <footer>
+                <a href="#" class="Reset_password_link">Reset Your Password</a>
+            </footer>
+        </section>
+    </div>
+
+    <!------------------------------------------------------------------------------------------------------------------------>
+                                                <!-- Create Account Page-->
+    <!------------------------------------------------------------------------------------------------------------------------>
+    <div class="container" id="create_container" hidden>
+        <header class="container_layout">
+            <h1 id="create_text">Create an account</h1>
+        </header>
+        <section class="form_container">
+            <p>Already have an account ?
+                <a href="#"  class="create_account_link" onclick="login()">Sign in</a>
+            </p>
+            <section class="myform">
+                <form action="" name="myform">
+                    <!--First Name-->
+                    <span class="first_name">
+                        <label for="fname" class="fname_lbl">First Name</label>
+                        <div>
+                            <input type="text" name="f_name" id="f_name" class="fname">
+                        </div>
+                    </span>
+
+                    <!--Last Name-->
+                    <span class="last_name">
+                        <label for="l_name" class="lname_lbl" id="l_name">Last Name</label>
+                        <div>
+                            <input type="text" name="l_name" id="l_name" class="lname">
+                        </div>
+                    </span>
+
+                    <!--Email-->
+
+                    <label for="email" class="email_label">Email address</label>
+                    <div>
+                        <input type="email" name="email" id="emailid" class="email_input">
+                    </div>
+
+                    <section class="password_container">
+                        <!--Password-->
+                        <span class="pwd_container">
+                            <label for="password" class="password_label">Password</label>
+                            <div>
+                                <input type="password" name="password" id="create_passwordid" class="password_input">
+                            </div>
+                        </span>
+
+                        <!--Confirm Password-->
+                        <span class="cfmpwd_container">
+                            <label for="password" class="password_label">Confirm Password</label>
+                            <div>
+                                <input type="password" name="password" id="cfm_passwordid" class="password_input">
+                            </div>
+                        </span>
+                    </section>
+
+                    <section class="create_account">
+                        <button class="create_btn">Create account</button>
+                    </section>
+                </form>
+            </section>
+        </section>
+    </div>
+</body>
+</html>
